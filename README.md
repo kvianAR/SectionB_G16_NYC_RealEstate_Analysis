@@ -52,10 +52,10 @@ If you are working in Google Colab:
 | Project Lead | _Name_ | `github-handle` |
 | Data Lead | _Name_ | `github-handle` |
 | ETL Lead | _Name_ | `github-handle` |
-| Analysis Lead | _Name_ | Kanchan Rani , Anuradha Raghuwanshi |
-| Visualization Lead | _Name_ | Kanchan Rani |
+| Analysis Lead | _Name_ | kanchan97-cp , anuradha-r18 |
+| Visualization Lead | _Name_ | kanchan97-cp |
 | Strategy Lead | _Name_ | `github-handle` |
-| PPT and Quality Lead | _Name_ | Anuradha Raghuwanshi |
+| PPT and Quality Lead | _Name_ | anuradha-r18 |
 
 ---
 
