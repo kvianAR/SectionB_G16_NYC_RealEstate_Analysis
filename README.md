@@ -40,7 +40,7 @@ If you are working in Google Colab:
 | Role | Name | GitHub Username |
 |---|---|---|
 | Project Lead | Khushi , Krishndevan M.L. | khushi-madan18 , ka-ori |
-| Data Lead | Krishnadevan M.L. | Krishnadevan M.L. |
+| Data Lead | Krishnadevan M.L. | Ka-ori |
 | ETL Lead | Aditya Ranjan | kvianAR |
 | Analysis Lead | Bhavya Goel | bhavay009 |
 | Visualization Lead | Kanchan Rani | kanchan97-cp |
