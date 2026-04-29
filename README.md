@@ -273,12 +273,12 @@ This table must match evidence in GitHub Insights, PR history, and committed fil
 
 | Team Member | Dataset and Sourcing | ETL and Cleaning | EDA and Analysis | Statistical Analysis | Tableau Dashboard | Report Writing | PPT and Viva |
 |---|---|---|---|---|---|---|---|
-| Khushi |  | _Owner / support_ | _Owner / support_ | ✓ | _Owner / support_ | _Owner / support_ | _Owner / support_ |
-|  Krishandevan M.L. | ✓ / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ |
-| Kanchan Rani | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | ✓ | _Owner / support_ | _Owner / support_ |
-| Anuradha Raghuwanshi | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | ✓ | ✓ |
-| Bhavya Goel | _Owner / support_ | _Owner / support_ | ✓ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ |
-| Aditya Ranjan | _Owner / support_ | ✓ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ |
+| Khushi | - | - | ✓ | ✓ | - | ✓ | - |
+| Krishandevan M.L. | ✓  | ✓ | - | - | - | - | - |
+| Kanchan Rani | - | - | - | - | ✓ | - | - |
+| Anuradha Raghuwanshi | - | - | - | ✓ | - | ✓ | ✓ |
+| Bhavya Goel | - | - | ✓ | - | - | - | - |
+| Aditya Ranjan | - | ✓ | - | - | - | - | - |
 
 _Declaration: We confirm that the above contribution details are accurate and verifiable through GitHub Insights, PR history, and submitted artifacts._
 
