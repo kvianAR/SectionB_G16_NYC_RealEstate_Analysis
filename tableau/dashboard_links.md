@@ -1,4 +1,4 @@
-# Tableau Dashboard Links
+# Tableau Dashboard Link
 
 | Item | Link |
 | :--- | :--- |
