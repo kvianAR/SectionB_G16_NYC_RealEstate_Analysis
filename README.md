@@ -1,18 +1,8 @@
-# NST DVA Capstone 2 - Project Repository
+# SectionB_G-16_NYC_Real_Estate - Project Repository
 
 > **Newton School of Technology | Data Visualization & Analytics**
 > A 2-week industry simulation capstone using Python, GitHub, and Tableau to convert raw data into actionable business intelligence.
 
----
-
-## Before You Start
-
-1. Rename the repository using the format `SectionName_TeamID_ProjectName`.
-2. Fill in the project details and team table below.
-3. Add the raw dataset to `data/raw/`.
-4. Complete the notebooks in order from `01` to `05`.
-5. Publish the final dashboard and add the public link in `tableau/dashboard_links.md`.
-6. Export the final report and presentation as PDFs into `reports/`.
 
 ### Quick Start
 
@@ -37,61 +27,61 @@ If you are working in Google Colab:
 
 | Field | Details |
 |---|---|
-| **Project Title** | _To be filled by team_ |
-| **Sector** | _e.g. Retail, Finance, Healthcare, EdTech_ |
-| **Team ID** | _e.g. DVA-B1-T3_ |
-| **Section** | _To be filled by team_ |
-| **Faculty Mentor** | _To be filled by team_ |
+| **Project Title** | NYC_Real_Estate_Analysis |
+| **Sector** | Commercial |
+| **Team ID** |  DVA-B-T16 |
+| **Section** | B |
+| **Faculty Mentor** | satyaki Das , Omkar Gohkale  |
 | **Institute** | Newton School of Technology |
-| **Submission Date** | _To be filled by team_ |
+| **Submission Date** | 29 April 2026 |
 
 ### Team Members
 
 | Role | Name | GitHub Username |
 |---|---|---|
-| Project Lead | _Name_ | `github-handle` |
-| Data Lead | _Name_ | `github-handle` |
-| ETL Lead | _Name_ | `github-handle` |
-| Analysis Lead | _Name_ | `github-handle` |
-| Visualization Lead | _Name_ | `github-handle` |
-| Strategy Lead | _Name_ | `github-handle` |
-| PPT and Quality Lead | _Name_ | `github-handle` |
+| Project Lead | Khushi , Krishndevan M.L. | khushi-madan18 , ka-ori |
+| Data Lead | Krishnadevan M.L. | Ka-ori |
+| ETL Lead | Aditya Ranjan | kvianAR |
+| Analysis Lead | Bhavya Goel | bhavay009 |
+| Visualization Lead | Kanchan Rani | kanchan97-cp |
+| Strategy Lead | Anuradha Raghuwanshi | anuradha-r18 |
+| PPT and Quality Lead |  Anuradha Raghuwanshi | anuradha-r18 |
 
 ---
 
 ## Business Problem
 
-_Describe the sector context, the decision-maker this project serves, and the core business challenge being addressed. Keep this to 3-5 sentences written in plain language, as if addressing a senior stakeholder._
+New York City real estate market contains thousands of property transactions across different boroughs and property categories. Real estate investors, brokers, and analysts often struggle to identify pricing trends, high-performing boroughs, seasonal sales behavior, and property demand patterns. This project analyzes NYC rolling sales data to uncover market insights, sales distribution, property type performance, and pricing trends using Tableau dashboards and Python-based analysis. The objective is to support data-driven investment and market analysis decisions.
 
 **Core Business Question**
 
-> _State the single main question your Tableau dashboard and Python analysis will answer._
+Which NYC boroughs and property types generate the highest sales performance, and how do pricing trends and transaction patterns change over time?
+
 
 **Decision Supported**
 
-> _What action or decision will this analysis enable the stakeholder to take?_
-
+This analysis helps investors, brokers, and market analysts identify profitable boroughs, understand seasonal demand patterns, and make informed real estate investment and pricing decisions.
 ---
 
 ## Dataset
 
 | Attribute | Details |
 |---|---|
-| **Source Name** | _e.g. World Bank, data.gov.in, Kaggle (raw only)_ |
+| **Source Name** | NYC Rolling Sales Dataset / Kaggle |
 | **Direct Access Link** | _Paste the direct download or access URL_ |
-| **Row Count** | _Must be greater than 5,000_ |
-| **Column Count** | _Must be greater than 8 meaningful columns_ |
-| **Time Period Covered** | _e.g. Jan 2019 to Dec 2023_ |
-| **Format** | _e.g. CSV, JSON, Excel_ |
+| **Row Count** | 84,548(Raw) / 33168(Processed) |
+| **Column Count** | 22(Raw) / 19(Processed) |
+| **Time Period Covered** |2016 – 2017 |
+| **Format** | CSV |
 
 **Key Columns Used**
 
 | Column Name | Description | Role in Analysis |
 |---|---|---|
-| _column_1_ | _What it means_ | _Used for KPI / filter / segmentation_ |
-| _column_2_ | _What it means_ | _Used for KPI / filter / segmentation_ |
-| _column_3_ | _What it means_ | _Used for KPI / filter / segmentation_ |
-| _column_4_ | _What it means_ | _Used for KPI / filter / segmentation_ |
+| borough | NYC borough identifier | Borough-wise comparison |
+| neighborhood | Area/locality name | Regional analysis |
+| building_class_category | Type of property/building | Property segmentation |
+| residential_units | Number of residential units | Residential analysis |
 
 For full column definitions, see [`docs/data_dictionary.md`](docs/data_dictionary.md).
 
@@ -101,9 +91,9 @@ For full column definitions, see [`docs/data_dictionary.md`](docs/data_dictionar
 
 | KPI | Definition | Formula / Computation |
 |---|---|---|
-| _e.g. Monthly Revenue Growth %_ | _What business outcome this tracks_ | _Show the exact formula or notebook reference_ |
-| _e.g. Customer Churn Rate_ | _What business outcome this tracks_ | _Show the exact formula or notebook reference_ |
-| _e.g. Repeat Purchase Rate_ | _What business outcome this tracks_ | _Show the exact formula or notebook reference_ |
+| Total Transactions | Total property sales recorded | COUNT(*) |
+| Total Sales Volume | Total value of all property sales | SUM(sale_price) |
+| Average Sale Price | Average property transaction value | AVG(sale_price) |
 
 Document KPI logic clearly in `notebooks/04_statistical_analysis.ipynb` and `notebooks/05_final_load_prep.ipynb`.
 
@@ -113,10 +103,10 @@ Document KPI logic clearly in `notebooks/04_statistical_analysis.ipynb` and `not
 
 | Item | Details |
 |---|---|
-| **Dashboard URL** | _Paste Tableau Public link here_ |
-| **Executive View** | _Describe the high-level KPI summary view_ |
-| **Operational View** | _Describe the detailed drill-down view_ |
-| **Main Filters** | _List the interactive filters used_ |
+| **Dashboard URL** | https://public.tableau.com/views/DVA_Capstone_17773722247150/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link |
+| **Executive View** | Overall sales KPIs, borough-wise sales trends, and pricing overview |
+| **Operational View** | Property type analysis, seasonal trends, quarterly transactions, and building-age insights |
+| **Main Filters** | Borough Name, Property Type Group, Sale Season, Price Category, Sale Quarter |
 
 Store dashboard screenshots in [`tableau/screenshots/`](tableau/screenshots/) and document the public links in [`tableau/dashboard_links.md`](tableau/dashboard_links.md).
 
@@ -126,14 +116,14 @@ Store dashboard screenshots in [`tableau/screenshots/`](tableau/screenshots/) an
 
 _List 8-12 major findings from the analysis, written in decision language. Each insight should tell the reader what to think or act upon, not merely describe a chart._
 
-1. _Insight 1_
-2. _Insight 2_
-3. _Insight 3_
-4. _Insight 4_
-5. _Insight 5_
-6. _Insight 6_
-7. _Insight 7_
-8. _Insight 8_
+1. Manhattan has the highest average sale price and price per square foot.
+2. Brooklyn and Queens contribute a significant share of total transactions.
+3. Family homes dominate overall property transactions.
+4. Commercial properties account for a smaller percentage of total sales.
+5. Most transactions occur in mid-range pricing categories.
+6. Sales activity increased during 2017 compared to 2016.
+7. Quarter 2 of 2017 recorded one of the highest transaction counts.
+8. Older buildings (60–100 years old) dominate the NYC sales market.
 
 ---
 
@@ -143,9 +133,11 @@ _Provide 3-5 specific, actionable business recommendations, each linked directly
 
 | # | Insight | Recommendation | Expected Impact |
 |---|---|---|---|
-| 1 | _Which insight does this address?_ | _What should the stakeholder do?_ | _What measurable impact do you expect?_ |
-| 2 | _Which insight does this address?_ | _What should the stakeholder do?_ | _What measurable impact do you expect?_ |
-| 3 | _Which insight does this address?_ | _What should the stakeholder do?_ | _What measurable impact do you expect?_ |
+| 1 | Manhattan shows premium pricing | Target luxury investment opportunities in Manhattan | Higher ROI |
+| 2 | Family homes dominate transactions | Increase focus on residential property marketing | Higher customer demand |
+| 3 | Older buildings dominate sales | Explore renovation and redevelopment projects | Property value appreciation |
+| 4 | Mid-range pricing has highest activity | Prioritize affordable and mid-range listings | Increased transaction volume |
+| 5 | Sales peak during certain quarters | Align promotions and campaigns with peak seasons | Better sales performance |
 
 ---
 
@@ -206,7 +198,7 @@ The project follows a structured 7-step workflow:
 
 | Tool | Status | Purpose |
 |---|---|---|
-| Python + Jupyter Notebooks | Mandatory | ETL, cleaning, analysis, and KPI computation |
+| Python + collab Notebooks | Mandatory | ETL, cleaning, analysis, and KPI computation |
 | Google Colab | Supported | Cloud notebook execution environment |
 | Tableau Public | Mandatory | Dashboard design, publishing, and sharing |
 | GitHub | Mandatory | Version control, collaboration, contribution audit |
@@ -281,18 +273,18 @@ This table must match evidence in GitHub Insights, PR history, and committed fil
 
 | Team Member | Dataset and Sourcing | ETL and Cleaning | EDA and Analysis | Statistical Analysis | Tableau Dashboard | Report Writing | PPT and Viva |
 |---|---|---|---|---|---|---|---|
-| _Member 1_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ |
-| _Member 2_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ |
-| _Member 3_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ |
-| _Member 4_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ |
-| _Member 5_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ |
-| _Member 6_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ |
+| Khushi | - | - | ✓ | ✓ | - | ✓ | - |
+| Krishandevan M.L. | ✓  | ✓ | - | - | - | - | - |
+| Kanchan Rani | - | - | - | - | ✓ | - | - |
+| Anuradha Raghuwanshi | - | - | - | ✓ | - | ✓ | ✓ |
+| Bhavya Goel | - | - | ✓ | - | - | - | - |
+| Aditya Ranjan | - | ✓ | - | - | - | - | - |
 
 _Declaration: We confirm that the above contribution details are accurate and verifiable through GitHub Insights, PR history, and submitted artifacts._
 
-**Team Lead Name:** _____________________________
+**Team Lead Name:** Khushi , krishnadevan M.L.
 
-**Date:** _______________
+**Date:** 29 April-2026
 
 ---
 
