@@ -1,18 +1,8 @@
-# NST DVA Capstone 2 - Project Repository
+# SectionB_G-16_NYC_Real_Estate - Project Repository
 
 > **Newton School of Technology | Data Visualization & Analytics**
 > A 2-week industry simulation capstone using Python, GitHub, and Tableau to convert raw data into actionable business intelligence.
 
----
-
-## Before You Start
-
-1. Rename the repository using the format `SectionName_TeamID_ProjectName`.
-2. Fill in the project details and team table below.
-3. Add the raw dataset to `data/raw/`.
-4. Complete the notebooks in order from `01` to `05`.
-5. Publish the final dashboard and add the public link in `tableau/dashboard_links.md`.
-6. Export the final report and presentation as PDFs into `reports/`.
 
 ### Quick Start
 
@@ -39,9 +29,9 @@ If you are working in Google Colab:
 |---|---|
 | **Project Title** | NYC_Real_Estate_Analysis |
 | **Sector** | Commercial |
-| **Team ID** | _e.g. DVA-B1-T16_ |
+| **Team ID** |  DVA-B-T16 |
 | **Section** | B |
-| **Faculty Mentor** | _To be filled by team_ |
+| **Faculty Mentor** | satyaki Das , Omkar Gohkale  |
 | **Institute** | Newton School of Technology |
 | **Submission Date** | 29 April 2026 |
 
@@ -49,13 +39,13 @@ If you are working in Google Colab:
 
 | Role | Name | GitHub Username |
 |---|---|---|
-| Project Lead | _Name_ | `github-handle` |
-| Data Lead | _Name_ | `github-handle` |
-| ETL Lead | _Name_ | `github-handle` |
-| Analysis Lead | _Name_ | Kanchan Rani , Anuradha Raghuwanshi |
-| Visualization Lead | _Name_ | Kanchan Rani |
-| Strategy Lead | _Name_ | `github-handle` |
-| PPT and Quality Lead | _Name_ | Anuradha Raghuwanshi |
+| Project Lead | Khushi , Krishndevan M.L. | khushi-madan18 , ka-ori |
+| Data Lead | Krishnadevan M.L. | Ka-ori |
+| ETL Lead | Aditya Ranjan | kvianAR |
+| Analysis Lead | Bhavya Goel | bhavay009 |
+| Visualization Lead | Kanchan Rani | kanchan97-cp |
+| Strategy Lead | Anuradha Raghuwanshi | anuradha-r18 |
+| PPT and Quality Lead |  Anuradha Raghuwanshi | anuradha-r18 |
 
 ---
 
@@ -79,8 +69,8 @@ This analysis helps investors, brokers, and market analysts identify profitable 
 |---|---|
 | **Source Name** | NYC Rolling Sales Dataset / Kaggle |
 | **Direct Access Link** | _Paste the direct download or access URL_ |
-| **Row Count** |33,167 |
-| **Column Count** | 19 |
+| **Row Count** | 84,548(Raw) / 33168(Processed) |
+| **Column Count** | 22(Raw) / 19(Processed) |
 | **Time Period Covered** |2016 – 2017 |
 | **Format** | CSV |
 
@@ -283,18 +273,18 @@ This table must match evidence in GitHub Insights, PR history, and committed fil
 
 | Team Member | Dataset and Sourcing | ETL and Cleaning | EDA and Analysis | Statistical Analysis | Tableau Dashboard | Report Writing | PPT and Viva |
 |---|---|---|---|---|---|---|---|
-| _Member 1_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ |
-| _Member 2_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ |
-| _Member 3_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ |
-| _Member 4_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ |
-| _Member 5_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ |
-| _Member 6_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ | _Owner / support_ |
+| Khushi | - | - | ✓ | ✓ | - | ✓ | - |
+| Krishandevan M.L. | ✓  | ✓ | - | - | - | - | - |
+| Kanchan Rani | - | - | - | - | ✓ | - | - |
+| Anuradha Raghuwanshi | - | - | - | ✓ | - | ✓ | ✓ |
+| Bhavya Goel | - | - | ✓ | - | - | - | - |
+| Aditya Ranjan | - | ✓ | - | - | - | - | - |
 
 _Declaration: We confirm that the above contribution details are accurate and verifiable through GitHub Insights, PR history, and submitted artifacts._
 
-**Team Lead Name:** _____________________________
+**Team Lead Name:** Khushi , krishnadevan M.L.
 
-**Date:** _______________
+**Date:** 29 April-2026
 
 ---
 

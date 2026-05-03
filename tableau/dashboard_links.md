@@ -1,17 +1,5 @@
-# Tableau Dashboard Links
+# Tableau Dashboard Link
 
-Use this file to store the final public links for your Tableau deliverables.
-
-## Dashboard Details
-
-| Item | Link | Notes |
-|---|---|---|
-| Tableau Public Dashboard | _Paste URL here_ | _Main submission link_ |
-| Workbook / Story Link | _Paste URL here if applicable_ | _Optional_ |
-| Demo Recording | _Paste URL here if applicable_ | _Optional_ |
-
-## Screenshot Checklist
-
-- Add exported dashboard screenshots to `tableau/screenshots/`
-- Use clear file names such as `executive_view.png` and `regional_drilldown.png`
-- Make sure screenshots match the final public dashboard
+| Item | Link |
+| :--- | :--- |
+| Tableau Public Dashboard | [Dashboard Link](https://public.tableau.com/views/DVA_Capstone2_17774716052180/Dashboard3?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) |
